@@ -400,9 +400,10 @@ align-items: center;
   @media (max-width: 1200px) {
     .User-Review {
       margin-top: 200px;
-       margin-top: 200px;
+     
      }
      .scrollLeftButton,.scrollRightButton ,.hashtagrightButton,.hashtagleftButton{
       display: none;
+
    }
   }
