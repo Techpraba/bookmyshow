@@ -368,10 +368,7 @@ align-items: center;
     width: 100%;
      margin-left: 10px;
    }
-   .User-Review {
-    margin-top: 200px;
-     margin-top: 200px;
-   }
+ 
    .headline,.User-Review-Header{
      font-size: 10px;
    }
@@ -398,10 +395,7 @@ align-items: center;
 
   }
   @media (max-width: 1200px) {
-    .User-Review {
-      margin-top: 200px;
-     
-     }
+  
      .scrollLeftButton,.scrollRightButton ,.hashtagrightButton,.hashtagleftButton{
       display: none;
 

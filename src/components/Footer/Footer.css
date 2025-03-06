@@ -111,9 +111,7 @@ footer{
 }
 /* ---------------------responsive------------------- */
 @media (max-width: 480px) {
-footer{
-    margin-top: 200px;
-  }
+
   .footerbtn{
     padding: 5px;
   }
@@ -132,7 +130,7 @@ footer{
     height: auto;
 }
 footer{
-    height: 412vh;
+    height:276vh;
 }
 .copyright{
     margin-top: 40px;
@@ -140,9 +138,7 @@ footer{
 }
 
 @media (max-width: 800px) {
-    footer{
-        margin-top: 200px;
-    }
+  
     .footer-details{
         margin-left: 10px;
     }
