@@ -4,7 +4,7 @@ import Logo from '../../asserts/bookmyshow-logo.png';
 import { FiAlignJustify } from "react-icons/fi";
 import { AiOutlineClose } from "react-icons/ai";
 import { IoIosNotifications } from "react-icons/io";
-import { CiGift } from "react-icons/ci";
+
 import { FiShoppingBag } from "react-icons/fi";
 import { CiStreamOn } from "react-icons/ci";
 import { BiSolidCreditCardAlt } from "react-icons/bi";

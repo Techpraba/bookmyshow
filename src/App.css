@@ -301,8 +301,8 @@ align-items: center;
     .homeRating button {
       margin-left: 10%;
     }
-    .scrollLeftButton,.scrollRightButton {
-        top: 163%;
+    .scrollLeftButton,.scrollRightButton,.hashtagrightButton,.hashtagleftButton {
+       display: none;
     }
     .about,.headline ,.User-Review,.recomnd   {
       width: 100%;

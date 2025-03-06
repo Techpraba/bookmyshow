@@ -8,7 +8,7 @@ import { BiDislike } from "react-icons/bi";
 import { CiShare2 } from "react-icons/ci";
 
 function Card(review) {
-    const { pics, names, MovieNames } = review;
+    const { pics } = review;
     const [count, setcount] = useState(0);
     const [dislike, setDislike] = useState(0);
     let like = () => {

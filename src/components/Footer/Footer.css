@@ -124,7 +124,19 @@ footer{
   .footer-details{
     margin-left: 10px;
   }
-
+  .footerlogo{
+    display: none;
+  }
+.footerIconforContact{
+    flex-wrap: wrap;
+    height: auto;
+}
+footer{
+    height: 520vh;
+}
+.copyright{
+    margin-top: 40px;
+}
 }
 
 @media (max-width: 800px) {
