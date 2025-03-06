@@ -6,9 +6,6 @@
     justify-content: flex-end;
     position: relative;
 }
-:root{
-  height: auto;
-}
 .homepicleft{
     width: 60%;
     height: 100%;
@@ -137,16 +134,10 @@
     display: none;
   }
   .crew{
-    display: flex;
     width: 70%;
-    height: 300px;
-    overflow: scroll;
+    overflow: hidden;
 
   }
-  .crew::-webkit-scrollbar {
-display: none;
-  }
-
   .scrollLeftButton{
     width: 50px;
     height: 50px;
@@ -286,6 +277,13 @@ align-items: center;
   .recomnd::-webkit-scrollbar {
     display: none; 
   }
+  .crew{
+    display: flex;
+    overflow: scroll;
+  }
+  .crew::-webkit-scrollbar {
+      display: none;
+  }
   /* ---------------responsive---------------- */
   
 
@@ -303,21 +301,27 @@ align-items: center;
       .booktheticketbtn {
             padding: 5px 5px;
       }
-          
+      .crew{
+        width: 100%;
+        overflow: scroll;
+    
+      }
     .homepicright {
       width: 100%;
     }
     .homeRating button {
       margin-left: 10%;
     }
-    .scrollLeftButton,.scrollRightButton,.hashtagrightButton,.hashtagleftButton {
+    .scrollLeftButton,.scrollRightButton ,.hashtagrightButton,.hashtagleftButton{
        display: none;
     }
-    .about,.headline ,.User-Review,.recomnd,.crew   {
+    .about,.headline ,.User-Review,.recomnd   {
       width: 100%;
       margin-left: 10px;
     }
-   
+    .User-Review {
+      margin-top: 200px;
+    }
     .headline,.User-Review-Header{
       font-size: 10px;
     }
@@ -335,12 +339,7 @@ align-items: center;
       width: 300px;
       height: 250px;
     }
-.crew{
-  overflow: scroll;
-}
-.crew::-webkit-scrollbar{
-  display: none;
-}
+
   }
 
   @media (max-width: 800px) {
@@ -364,18 +363,15 @@ align-items: center;
    .homeRating button {
      margin-left: 10%;
    }
-   .scrollLeftButton,.scrollRightButton,.hashtagrightButton ,.hashtagleftButton{
-     
-       display: none;
+   .scrollLeftButton,.scrollRightButton {
+       top: 163%;
    }
    .about,.headline ,.User-Review,.recomnd   {
     width: 100%;
      margin-left: 10px;
    }
-   .Movie-crew{
-    width: 100%;
-   }
    .User-Review {
+    margin-top: 200px;
      margin-top: 200px;
    }
    .headline,.User-Review-Header{
@@ -397,12 +393,15 @@ align-items: center;
    }
    .about,.Movie-crew{
     width: 100%;
-    height: fit-content;
-
    }
    .SecNavbar{
     flex-wrap: wrap;
    }
 
   }
- 
+  @media (max-width: 1200px) {
+    .User-Review {
+      margin-top: 200px;
+       margin-top: 200px;
+     }
+  }
