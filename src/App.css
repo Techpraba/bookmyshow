@@ -10,6 +10,7 @@
     width: 60%;
     height: 100%;
     /* background-color: rgb(25, 26, 26); */
+
     display: flex;
     justify-content: flex-end ;
     align-items: center;
@@ -40,6 +41,7 @@
   padding: 15px 20px;
   margin-top: 20px ;
   background-color: red;
+  
   color: white;
   border: none;
   font-size: larger;
@@ -49,13 +51,13 @@
     width: 60%;
     height: 100%;
 
+    background-image: url("https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/sabdham-et00431691-1740495164.jpg");
      
-      background-color: red;
  
   display: flex;
   justify-content: end;
 
-  background-image: url('https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/sabdham-et00431691-1740495164.jpg'); 
+
   background-repeat: no-repeat;
   
   object-fit: contain;
@@ -68,14 +70,10 @@
     
 }
 .card{
-    width: 300px;
-    height: 400px;
-    background-color: red;
-    background-image: url('https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/sabdham-et00431691-1740495164.jpg');
+    width: 400px;
+    height: 300px;
     border-radius: 10px;
     box-shadow: 200px 0px 200px 20px black;
-    
-
 }
 .homeRating{
     width: 400px;
@@ -285,13 +283,58 @@ align-items: center;
   .crew::-webkit-scrollbar {
       display: none;
   }
+  .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+  }
+  .card a{
+    color: white;
+   padding: 5px;
+    background-color:rgba(128, 128, 128, 0.466);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    position: absolute;
+  }
+  .playpic{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .card p{
+    margin-top: 10px;
+    
+  }
   /* ---------------responsive---------------- */
   
 
   @media (max-width: 480px) {
-    .homepicleft {
-       width: 300px;
-       justify-content:center;
+      .homepicright {
+        display: none;
+        
+      }
+      .card{
+        height:300px;
+
+      }
+  
+    .homeMovieDetails {
+      display: none;
+      }
+      .card{
+        margin-left: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
       }
       .homeMovieDetails h1{
         font-size: 20px;
@@ -349,7 +392,8 @@ align-items: center;
 
   @media (max-width: 800px) {
     .homepicleft {
-      width: 300px;
+      width: 355px;
+     
       justify-content:center;
      }
      .homeMovieDetails h1{

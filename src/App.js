@@ -8,6 +8,8 @@ import { FaChevronRight } from "react-icons/fa";
 import Card from './components/Card/card';
 import Footer from './components/Footer/Footer';
 import Recomandation from './components/Footer/Recomandation/Recomandation';
+import { FaPlay } from "react-icons/fa";
+
 function App() {
   const castRef = useRef(null);
   const hashtagRef = useRef(null);
@@ -30,7 +32,13 @@ function App() {
         <div className='home'>
           <div className='homepicright'></div>
           <div className='homepicleft'>
-            <div className='card'></div>
+
+            <div className='card'>
+              <img src={"https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/sabdham-et00431691-1740495164.jpg"} className='playpic' />
+              <a href={"https://in.bookmyshow.com/chennai/movies/sabdham/ET00431691/multimedia"}>  <FaPlay />Trailler</a>
+              <p>In Cinemas</p>
+            </div>
+
             <div className='homeMovieDetails'>
               <h1>Sabdham</h1>
               <div className='homeRating'>
