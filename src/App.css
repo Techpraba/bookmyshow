@@ -370,7 +370,7 @@ align-items: center;
      
        display: none;
    }
-   .about,.headline ,.User-Review,.recomnd   {
+   .about,.headline ,.User-Review,.recomnd ,.crew  {
     width: 100%;
      margin-left: 10px;
    }
