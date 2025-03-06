@@ -55,7 +55,7 @@
   display: flex;
   justify-content: end;
 
-  background-image: url('https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/sabdham-et00431691-1740495164.jpg'); 
+  background-image: url('https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/sabdham-et00431691-1740495164.jpg'); 
   background-repeat: no-repeat;
   
   object-fit: contain;
@@ -170,6 +170,7 @@
     width: 70%;
     border-top: 2px solid rgba(0, 0, 0, 0.463);
     margin-left: 100px;
+    margin-top: 160px;
   }
   .User-Review-Header{
     display: flex;
@@ -210,8 +211,8 @@
     color: white;
     border-radius: 50%;
     border: none;
-    left: 5.5%;
-    top: 195%;
+    left: 4.5%;
+    top: 197.5%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -222,8 +223,8 @@
 position: absolute;
 right: 350px;
 padding: 10px;
-top: 195%;
-left: 76%;
+top: 197.5%;
+left: 76.5%;
 border-radius: 50%;
 border: none;
 background-color: #2e2e2ebe;
@@ -319,12 +320,18 @@ align-items: center;
       width: 100%;
       margin-left: 10px;
     }
- 
+    .about{
+      height:65vh;
+    }
     .headline,.User-Review-Header{
       font-size: 10px;
     }
     .User-Review h6 {
         color: gray;
+    }
+    .User-Review{
+      padding-top: 20px;
+    
     }
     .show{
       display: none;
@@ -367,6 +374,7 @@ align-items: center;
    .about,.headline ,.User-Review,.recomnd   {
     width: 100%;
      margin-left: 10px;
+     
    }
  
    .headline,.User-Review-Header{
@@ -400,4 +408,5 @@ align-items: center;
       display: none;
 
    }
+   
   }
