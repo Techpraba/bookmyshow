@@ -78,7 +78,7 @@ function App() {
         </div>
         <div className='Movie-crew'>
           <h1>Crew</h1>
-          <div className='Cast crew'>
+          <div className='crew'>
             <Cast pics={pic1} names={"Aadhi"} MovieNames={"As a Rooban"} />
             <Cast pics={pic1} names={"Aadhi"} MovieNames={"As a Rooban"} />
             <Cast pics={pic1} names={"Aadhi"} MovieNames={"As a Rooban"} />

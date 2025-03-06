@@ -6,6 +6,9 @@
     justify-content: flex-end;
     position: relative;
 }
+:root{
+  height: auto;
+}
 .homepicleft{
     width: 60%;
     height: 100%;
@@ -134,10 +137,16 @@
     display: none;
   }
   .crew{
+    display: flex;
     width: 70%;
-    overflow: hidden;
+    height: 300px;
+    overflow: scroll;
 
   }
+  .crew::-webkit-scrollbar {
+display: none;
+  }
+
   .scrollLeftButton{
     width: 50px;
     height: 50px;
@@ -304,7 +313,7 @@ align-items: center;
     .scrollLeftButton,.scrollRightButton,.hashtagrightButton,.hashtagleftButton {
        display: none;
     }
-    .about,.headline ,.User-Review,.recomnd   {
+    .about,.headline ,.User-Review,.recomnd,.crew   {
       width: 100%;
       margin-left: 10px;
     }
@@ -328,7 +337,12 @@ align-items: center;
       width: 300px;
       height: 250px;
     }
-
+.crew{
+  overflow: scroll;
+}
+.crew::-webkit-scrollbar{
+  display: none;
+}
   }
 
   @media (max-width: 800px) {
@@ -352,16 +366,18 @@ align-items: center;
    .homeRating button {
      margin-left: 10%;
    }
-   .scrollLeftButton,.scrollRightButton {
-       top: 163%;
+   .scrollLeftButton,.scrollRightButton,.hashtagrightButton ,.hashtagleftButton{
+     
+       display: none;
    }
    .about,.headline ,.User-Review,.recomnd   {
     width: 100%;
      margin-left: 10px;
    }
-   .User-Review {
-     margin-top: 200px;
+   .Movie-crew{
+    width: 100%;
    }
+ 
    .headline,.User-Review-Header{
      font-size: 10px;
    }
@@ -381,6 +397,8 @@ align-items: center;
    }
    .about,.Movie-crew{
     width: 100%;
+    height: fit-content;
+
    }
    .SecNavbar{
     flex-wrap: wrap;
