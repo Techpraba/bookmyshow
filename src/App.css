@@ -404,4 +404,7 @@ align-items: center;
       margin-top: 200px;
        margin-top: 200px;
      }
+     .scrollLeftButton,.scrollRightButton ,.hashtagrightButton,.hashtagleftButton{
+      display: none;
+   }
   }
