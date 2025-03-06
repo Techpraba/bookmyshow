@@ -355,7 +355,7 @@ align-items: center;
    .scrollLeftButton,.scrollRightButton {
        top: 163%;
    }
-   .about,.headline ,.User-Review,.recomnd   {
+   .about,.headline ,.User-Review,.recomnd ,.crew  {
     width: 100%;
      margin-left: 10px;
    }
