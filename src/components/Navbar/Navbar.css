@@ -139,8 +139,9 @@ border-bottom: 2px solid rgba(255, 255, 255, 0.397);
     .NavbarDropdown {
         width: 15%;
     }
-    .NavbarButton {
-        width: 8%;
+    .NavbarButton{
+        width: 10%;
+      
     }
 }
 
@@ -156,7 +157,7 @@ border-bottom: 2px solid rgba(255, 255, 255, 0.397);
    margin: 0 10px 0 10px;
 }
    .NavbarButton {
-    
+    width: 20%;
     margin-left: 10px;
 }
 .NavbarOverall{
@@ -174,6 +175,7 @@ border-bottom: 2px solid rgba(255, 255, 255, 0.397);
     .SecNavbar{
         display: none;
     }
+   
     .mobileNavbar{
         width: 100%;
         height: 60px;

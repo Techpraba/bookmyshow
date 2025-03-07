@@ -212,8 +212,8 @@
     color: white;
     border-radius: 50%;
     border: none;
-    left: 4.5%;
-    top: 197.5%;
+    left: 6%;
+    top: 196%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -224,7 +224,7 @@
 position: absolute;
 right: 350px;
 padding: 10px;
-top: 197.5%;
+top: 196%;
 left: 76.5%;
 border-radius: 50%;
 border: none;
@@ -524,6 +524,7 @@ align-items: center;
    }
    .recomnd {
      width: 100%;
+
      margin-left: 10px;
    }
    .cardoverall{
@@ -553,6 +554,9 @@ align-items: center;
     .about{
       height: 50vh;
     }
+    .recomentation{
+      height: 40vh;
+    }
 }
   @media  only screen  and (min-width:0px) and (max-width: 1300px) {
     .scrollLeftButton,.scrollRightButton ,.hashtagrightButton,.hashtagleftButton{
@@ -577,6 +581,6 @@ align-items: center;
   height: 40vh;
 }
    .User-Review{
-    margin-top: 350px;
+    margin-top: 50px;
    }
   }
