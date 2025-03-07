@@ -476,6 +476,9 @@ align-items: center;
      .card{
       display: none;
      }
+     .playpic{
+      width: 90%;
+     }
      
      .homepicleft{
       width: 90%;
@@ -547,7 +550,11 @@ align-items: center;
 
 
   }
-  @media only screen  and (min-width:700px) and  (max-width: 900px) {
+  @media  only screen  and (min-width:700px) and  (max-width: 900px) {
+    .homepicleft{
+      width: 90%;
+    padding-left: 20px;
+    }
     .User-Review{
       margin-top: 220px;
     }
@@ -557,6 +564,8 @@ align-items: center;
     .recomentation{
       height: 40vh;
     }
+    
+   
 }
   @media  only screen  and (min-width:0px) and (max-width: 1300px) {
     .scrollLeftButton,.scrollRightButton ,.hashtagrightButton,.hashtagleftButton{
