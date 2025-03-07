@@ -556,7 +556,7 @@ align-items: center;
     padding-left: 20px;
     }
     .User-Review{
-      margin-top: 220px;
+      margin-top: 150px;
     }
     .about{
       height: 50vh;
@@ -589,7 +589,8 @@ align-items: center;
 .recomentation{
   height: 40vh;
 }
-   .User-Review{
-    margin-top: 50px;
-   }
+   
+  }
+  @media  only screen  and (min-width:1200px) and  (max-width: 1500px) {
+
   }
