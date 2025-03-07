@@ -10,6 +10,7 @@ import Footer from './components/Footer/Footer';
 import Recomandation from './components/Footer/Recomandation/Recomandation';
 import { FaPlay } from "react-icons/fa";
 import dummy from './asserts/dummypic.jpg'
+import headerBanner from './asserts/sabdham-et00431691-1740495164.avif';
 function App() {
   const castRef = useRef(null);
   const hashtagRef = useRef(null);
@@ -66,6 +67,11 @@ function App() {
             </div>
           </div>
         </div>
+      </div>
+      <div className='mobileBox'>
+        <img src={headerBanner} className='mobilebanner' />
+        <p>In Cinemas</p>
+
       </div>
       <div className='homeRating deactive'>
         <FaStar />
