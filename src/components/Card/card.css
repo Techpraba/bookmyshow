@@ -34,7 +34,7 @@
     display: flex;
 }
 .rating{
-    float: right;
+   
     margin-left: 200px;
     color: red;
 }
@@ -55,4 +55,37 @@ display: flex;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width: 480px) {
+.cardoverall{
+    width: 300px ;
+    height: 200px;
+}
+.rating{
+   
+    margin-left: 0px;
+    color: red;
+}
+.user-logo{
+    width: 80px;
+}
+.cardoverall h3 {
+    font-size: 15px;
+    margin: 5px;
+}
+.like{
+   
+    margin: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.dateofreview{
+    display: none;
+}
+.shareicon{
+display: none;
+}
 }

@@ -41,8 +41,8 @@ function Card(review) {
                     <AiOutlineLike onClick={like} /> <span>{count}</span>
                     <BiDislike onClick={dislikes} /> <span>{dislike}</span>
                     <div>
-                        <span>4 Days Ago</span>
-                        <CiShare2 />
+                        <span className='dateofreview'>4 Days Ago</span>
+                        <CiShare2 className='shareicon' />
                     </div>
                 </div>
             </div>

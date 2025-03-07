@@ -9,7 +9,7 @@ import Card from './components/Card/card';
 import Footer from './components/Footer/Footer';
 import Recomandation from './components/Footer/Recomandation/Recomandation';
 import { FaPlay } from "react-icons/fa";
-
+import dummy from './asserts/dummypic.jpg'
 function App() {
   const castRef = useRef(null);
   const hashtagRef = useRef(null);
@@ -66,6 +66,18 @@ function App() {
             </div>
           </div>
         </div>
+      </div>
+      <div className='homeRating deactive'>
+        <FaStar />
+        <h6>8.3/10 (1.3k Votes) &gt;</h6>
+        <button>Rate Now</button>
+      </div>
+      <div className='MovieLang btn'>
+        <button className='btn1 clr'>2D</button>
+        <button className='btn1 clr'>Tamil</button>
+      </div>
+      <div>
+        <img src={dummy} className='dummy' />
       </div>
       <div className='about'>
         <h2>About the Movie</h2>

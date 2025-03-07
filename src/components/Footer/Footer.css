@@ -130,7 +130,9 @@ footer{
     height: auto;
 }
 footer{
+    width: 114%;
     height:276vh;
+    margin-top: 0;
 }
 .copyright{
     margin-top: 40px;

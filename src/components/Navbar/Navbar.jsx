@@ -13,6 +13,8 @@ import { IoMdSettings } from "react-icons/io";
 import { HiGiftTop } from "react-icons/hi2";
 import { BsFillFilterCircleFill } from "react-icons/bs";
 import { FaChevronRight } from "react-icons/fa";
+import { CiShare2 } from "react-icons/ci";
+import { FaAngleLeft } from "react-icons/fa";
 
 function Navbar() {
     const [slidewindow, setSlidewindow] = useState(false);
@@ -127,7 +129,14 @@ function Navbar() {
                     <p>Gift-Code</p>
                 </div>
             </div>
+            <div className='mobileNavbar'>
+                <div>
+                    <h3><FaAngleLeft /></h3>
+                    <h2> Sabdham</h2>
+                </div>
 
+                <CiShare2 className='share' />
+            </div>
         </>
     );
 }

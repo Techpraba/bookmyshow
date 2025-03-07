@@ -313,6 +313,10 @@ align-items: center;
     margin-top: 10px;
     
   }
+  .deactive,.dummy,.clr{
+    display: none;
+  }
+  
   /* ---------------responsive---------------- */
   
 
@@ -321,8 +325,48 @@ align-items: center;
         display: none;
         
       }
+      .home{
+       width: 114%;
+        height: 350px;
+        margin-right: 0;
+        background-color:black;
+       
+      }
+      .playpic {
+        width: 170%;
+      }
+   
+     .deactive{
+      display: flex;
+      width: 111%;
+      background-color: rgb(141, 141, 141);
+      margin-top: 10px;
+      margin-left: 10px;
+     }
+     .btn{
+      margin-left: 10px
+     }
+     .homeRating button {
+          margin-left: 43%;
+          color: red;
+          border: 1px solid red;
+          border-radius: 10px;
+     }
+     .dummy{
+      display: block;
+      width: 114%;
+     }
+     .clr{
+      display: block;
+     }
+.homepicleft{
+  width: 350px;
+  display: flex;
+       
+}
+    
       .card{
-        height:300px;
+        height:320px;
 
       }
   
@@ -330,7 +374,7 @@ align-items: center;
       display: none;
       }
       .card{
-        margin-left: 40px;
+        margin-left: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -339,9 +383,7 @@ align-items: center;
       .homeMovieDetails h1{
         font-size: 20px;
       }
-      .homeRating {
-        width: 300px;
-      }
+      
       .booktheticketbtn {
             padding: 5px 5px;
       }
@@ -353,9 +395,7 @@ align-items: center;
     .homepicright {
       width: 100%;
     }
-    .homeRating button {
-      margin-left: 10%;
-    }
+    
     .scrollLeftButton,.scrollRightButton ,.hashtagrightButton,.hashtagleftButton{
        display: none;
     }
@@ -391,6 +431,7 @@ align-items: center;
   }
 
   @media (max-width: 800px) {
+ 
     .homepicleft {
       width: 355px;
      
@@ -399,9 +440,7 @@ align-items: center;
      .homeMovieDetails h1{
        font-size: 20px;
      }
-     .homeRating {
-       width: 300px;
-     }
+     
      .booktheticketbtn {
            padding: 5px 5px;
      }
@@ -409,9 +448,7 @@ align-items: center;
    .homepicright {
      width: 100%;
    }
-   .homeRating button {
-     margin-left: 10%;
-   }
+   
    .scrollLeftButton,.scrollRightButton {
        top: 163%;
    }
