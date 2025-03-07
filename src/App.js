@@ -71,7 +71,7 @@ function App() {
       <div className='mobileBox'>
         <img src={headerBanner} className='mobilebanner' />
         <p>In Cinemas</p>
-
+        <span className='mobileplayicon'><a href={"https://in.bookmyshow.com/chennai/movies/sabdham/ET00431691/multimedia"}>  <FaPlay />Trailler</a></span>
       </div>
       <div className='homeRating deactive'>
         <FaStar />
