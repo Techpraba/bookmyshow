@@ -79,6 +79,7 @@ function App() {
       <div>
         <img src={dummy} className='dummy' />
       </div>
+      <button className='mobilebtn'>Book Tickets</button>
       <div className='about'>
         <h2>About the Movie</h2>
         <p>Rooban, a ghost investigator, acts as a communication medium for the dead souls to fulfil their wishes and attain salvation. What if he is unable to unravel the mystery surrounding a particular soul which is creating havoc?</p>

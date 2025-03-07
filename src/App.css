@@ -313,7 +313,7 @@ align-items: center;
     margin-top: 10px;
     
   }
-  .deactive,.dummy,.clr{
+  .deactive,.dummy,.clr,.mobilebtn{
     display: none;
   }
   
@@ -364,7 +364,18 @@ align-items: center;
   display: flex;
        
 }
-    
+    .mobilebtn{
+      display: block;
+      width: 100%;
+      background-color: red;
+      color: white;
+      position: fixed;
+      border: 5px solid white;
+      padding: 10px;
+      bottom: 0;
+      border-radius: 10px;
+      font-size: larger;
+    }
       .card{
         height:320px;
 
