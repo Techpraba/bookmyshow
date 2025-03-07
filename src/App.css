@@ -466,7 +466,7 @@ align-items: center;
     }
   }
 
-  @media only screen  and (min-width:500px) and  (max-width: 900px) {
+  @media only screen  and (min-width:500px) and  (max-width: 700px) {
  
     .homepicleft {
       width: 355px;
@@ -541,10 +541,19 @@ align-items: center;
    }
 .User-Review {
   padding-top: 30px;
-  margin-top: 40px;
+  margin-top: 250px;
 }
 
+
   }
+  @media only screen  and (min-width:700px) and  (max-width: 900px) {
+    .User-Review{
+      margin-top: 220px;
+    }
+    .about{
+      height: 50vh;
+    }
+}
   @media  only screen  and (min-width:0px) and (max-width: 1300px) {
     .scrollLeftButton,.scrollRightButton ,.hashtagrightButton,.hashtagleftButton{
       display: none;
@@ -567,5 +576,7 @@ align-items: center;
 .recomentation{
   height: 40vh;
 }
-   
+   .User-Review{
+    margin-top: 350px;
+   }
   }
