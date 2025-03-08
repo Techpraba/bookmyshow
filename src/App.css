@@ -502,6 +502,9 @@ margin-left: 20px;
     .crew{
       width: 100%;
     }
+    .playpic{
+      margin-left: 10px;
+    }
 
   }
   @media only screen  and (min-width:800px) and (max-width: 1500px) {
@@ -516,5 +519,8 @@ margin-left: 20px;
     }
     .crew{
       width: 100%;
+    }
+    .playpic{
+      margin-left: 10px;
     }
   }
