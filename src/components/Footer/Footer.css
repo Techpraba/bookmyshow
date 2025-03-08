@@ -127,7 +127,7 @@ footer{
         margin-left: 10px;
                 }
 }
-  @media only screen and (min-width:380px) and (max-width: 480px) {
+  @media only screen and (min-width:340px) and (max-width: 480px) {
 
   .footerbtn{
     padding: 5px;
@@ -159,21 +159,3 @@ footer{
     margin-top: 40px;
 }
 } 
-@media only screen and (min-width:480px) and (max-width: 980px) {
-        footer{
-            margin-top: 150px;
-            margin-left: 0;
-        }
-        .footer-details {
-margin-left: 10px;
-        }
-}
-@media only screen and (min-width:900px) and (max-width: 850px) {
-  
-    .footer-details{
-        margin-left: 10px;
-    }
-    footer{
-        margin: 0
-    }
-}

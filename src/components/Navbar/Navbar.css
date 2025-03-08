@@ -58,7 +58,7 @@ input[type=text]{
     padding-left: 10px;
 }
 .SecNavbar div+div{
-    padding-right: 80px;
+    padding-right: 0px;
 }
 .SecNavbar div p{
     padding: 9px;
@@ -132,45 +132,13 @@ border-bottom: 2px solid rgba(255, 255, 255, 0.397);
 .cancelbtn{
     margin-left: 230px;
 }
-
-
-   @media (max-width: 1200px) {
-    .NavbarOverall {
-        padding: 0 50px;
-    }
-    .NavbarDropdown {
-        width: 15%;
-    }
-    .NavbarButton{
-        width: 10%;
-      
-    }
-}
-
-@media (max-width: 768px) {
-   .SecNavbar{
-    flex-wrap: wrap;
-   }
-   .NavbarDropdown{
-    width: 20%;
-    margin-left: 5px;
-   }
-   input[type=text] {
-   margin: 0 10px 0 10px;
-}
-   .NavbarButton {
-    width: 20%;
-    margin-left: 10px;
-}
-.NavbarOverall{
-    padding: 0;
-    justify-content: space-between;
-}
-}
 .mobileNavbar{
     display: none;
 }
-@media (max-width: 480px) {
+
+
+
+@media only screen and (min-width:340px) and (max-width: 480px) {
     .NavbarOverall{
         display: none;
     }
@@ -203,5 +171,39 @@ border-bottom: 2px solid rgba(255, 255, 255, 0.397);
     }
     .share{
         font-size: 25px;
+    }
+}
+@media only screen and (min-width:480px) and (max-width: 800px) {
+    .SecNavbar{
+     flex-wrap: wrap;
+    }
+    .NavbarDropdown{
+     width: 20%;
+     margin-left: 5px;
+    }
+    input[type=text] {
+    margin: 0 10px 0 10px;
+ }
+    .NavbarButton {
+     width: 20%;
+     margin-left: 10px;
+ }
+ .NavbarOverall{
+     padding: 0;
+     justify-content: space-between;
+ }
+
+ }
+ @media only screen and (min-width:800px) and (max-width: 1200px) {
+    .NavbarOverall {
+        padding: 0 50px;
+    }
+    .NavbarDropdown {
+        width: 15%;
+    }
+    .NavbarButton{
+        width: 100px;
+        padding: 0;
+      
     }
 }

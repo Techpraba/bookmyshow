@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import './App.css';
 import { FaStar } from "react-icons/fa";
 import Cast from './components/cast/cast';
-import pic1 from './asserts/aadhi-pinisetty.avif'
+import pic9 from './asserts/aadhi-pinisetty.avif'
 import { FaChevronLeft } from "react-icons/fa";
 import { FaChevronRight } from "react-icons/fa";
 import Card from './components/Card/card';
@@ -11,6 +11,11 @@ import Recomandation from './components/Footer/Recomandation/Recomandation';
 import { FaPlay } from "react-icons/fa";
 import dummy from './asserts/dummypic.jpg'
 import headerBanner from './asserts/sabdham-et00431691-1740495164.avif';
+import pic1 from './asserts/pic9.jpg';
+import pic2 from './asserts/pic7.jpg';
+import pic3 from './asserts/pic8.jpg'
+import pic4 from './asserts/pic4.jpg';
+import pic5 from './asserts/pic5.jpg'
 function App() {
   const castRef = useRef(null);
   const hashtagRef = useRef(null);
@@ -93,22 +98,22 @@ function App() {
           <h1>Cast</h1>
           <button onClick={() => scrollLeft(castRef)} className='scrollLeftButton'><FaChevronLeft /></button>
           <div className='Cast' ref={castRef}>
-            <Cast pics={pic1} names={"Aadhi"} MovieNames={"As a Rooban"} />
-            <Cast pics={pic1} names={"Aadhi"} MovieNames={"As a Rooban"} />
-            <Cast pics={pic1} names={"Aadhi"} MovieNames={"As a Rooban"} />
-            <Cast pics={pic1} names={"Aadhi"} MovieNames={"As a Rooban"} />
-            <Cast pics={pic1} names={"Aadhi"} MovieNames={"As a Rooban"} />
-            <Cast pics={pic1} names={"Aadhi"} MovieNames={"As a Rooban"} />
-            <Cast pics={pic1} names={"Aadhi"} MovieNames={"As a Rooban"} />
+            <Cast pics={pic9} names={"Aadhi"} MovieNames={"As a Rooban"} />
+            <Cast pics={pic1} names={"praba"} MovieNames={"As a luffy"} />
+            <Cast pics={pic2} names={"raju"} MovieNames={"As a dinagar"} />
+            <Cast pics={pic3} names={"vijay"} MovieNames={"As a parthiban"} />
+            <Cast pics={pic4} names={"ajith"} MovieNames={"As a raja"} />
+            <Cast pics={pic9} names={"mani"} MovieNames={"As a kannappan"} />
+            <Cast pics={pic5} names={"santhanam"} MovieNames={"As a raju"} />
           </div>
           <button onClick={() => scrollRight(castRef)} className='scrollRightButton'><FaChevronRight /></button>
         </div>
         <div className='Movie-crew'>
           <h1>Crew</h1>
           <div className='crew'>
-            <Cast pics={pic1} names={"Aadhi"} MovieNames={"As a Rooban"} />
-            <Cast pics={pic1} names={"Aadhi"} MovieNames={"As a Rooban"} />
-            <Cast pics={pic1} names={"Aadhi"} MovieNames={"As a Rooban"} />
+            <Cast pics={pic9} names={"Aadhi"} MovieNames={"As a Rooban"} />
+            <Cast pics={pic4} names={"Vijay"} MovieNames={"As a JD"} />
+            <Cast pics={pic3} names={"Ajith"} MovieNames={"As a arjun"} />
             <Cast pics={pic1} names={"Aadhi"} MovieNames={"As a Rooban"} />
           </div>
         </div>

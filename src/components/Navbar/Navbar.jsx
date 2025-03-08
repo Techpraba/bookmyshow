@@ -126,7 +126,7 @@ function Navbar() {
                     <p>ListYourShow</p>
                     <p>Corporates</p>
                     <p>Offers</p>
-                    <p>Gift-Code</p>
+                    <p>Gift</p>
                 </div>
             </div>
             <div className='mobileNavbar'>
