@@ -155,6 +155,10 @@ footer{
     
    
 }
+.footerhomeicon{
+    font-size: 45px;
+    padding-right: 10px;
+}
 .copyright{
     margin-top: 40px;
 }

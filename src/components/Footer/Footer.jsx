@@ -25,7 +25,7 @@ function Footer() {
 
                 <div className='footer-contact'>
                     <div>
-                        <h1><MdMapsHomeWork /></h1>
+                        <h1><MdMapsHomeWork className='footerhomeicon' /></h1>
                         <p>
                             List your Show
                             Got a show, event, activity or a great experience? Partner with us & get listed on BookMyShow</p>

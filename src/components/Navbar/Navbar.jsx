@@ -35,7 +35,7 @@ function Navbar() {
                     <option value="activities">Activities</option>
                 </select>
                 <button className='NavbarButton'>Sign In</button>
-                <FiAlignJustify onClick={handleSlidewindow} />
+                <FiAlignJustify onClick={handleSlidewindow} className='slidebar' />
                 <div className={` slide-Content ${slidewindow ? "show" : "hide"}`}>
                     <div >
                         <h1>Hey..!</h1>

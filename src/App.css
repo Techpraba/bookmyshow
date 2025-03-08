@@ -427,9 +427,7 @@ align-items: center;
       width: 100%;
       margin-left: 10px;
     }
-    .about{
-      height:65vh;
-    }
+   
     .headline,.User-Review-Header{
       font-size: 10px;
     }
@@ -438,7 +436,7 @@ align-items: center;
     }
     .User-Review{
       padding-top: 20px;
-      margin-top: 250px;
+     
     
     }
     .show{

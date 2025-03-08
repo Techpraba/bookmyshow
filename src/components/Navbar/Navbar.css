@@ -192,7 +192,9 @@ border-bottom: 2px solid rgba(255, 255, 255, 0.397);
      padding: 0;
      justify-content: space-between;
  }
-
+ .slidebar{
+    display: none;
+}
  }
  @media only screen and (min-width:800px) and (max-width: 1200px) {
     .NavbarOverall {
@@ -200,10 +202,17 @@ border-bottom: 2px solid rgba(255, 255, 255, 0.397);
     }
     .NavbarDropdown {
         width: 15%;
+        height: 40px;
     }
     .NavbarButton{
-        width: 100px;
+        width: 200px;
+        height: 40px;
         padding: 0;
       
     }
+    .slidebar{
+        width: 60px;
+        font-size: 20px;
+    }
+  
 }
