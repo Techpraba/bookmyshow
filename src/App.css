@@ -508,4 +508,13 @@ margin-left: 20px;
     .scrollLeftButton,.scrollRightButton,.hashtagrightButton,.hashtagleftButton{
       display: none;
     }
+    .homepicleft{
+      width: 90%;
+    }
+    .homeRating{
+      margin-right: 10px;
+    }
+    .crew{
+      width: 100%;
+    }
   }
