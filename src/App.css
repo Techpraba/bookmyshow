@@ -7,6 +7,7 @@
     position: relative;
   
 }
+
 .homepicleft{
     width: 60%;
     height: 100%;
@@ -171,7 +172,8 @@
     width: 70%;
     border-top: 2px solid rgba(0, 0, 0, 0.463);
     margin-left: 100px;
-    margin-top: 150px;
+    margin-top: 100px;
+   
   }
   .User-Review-Header{
     display: flex;
@@ -213,7 +215,7 @@
     border-radius: 50%;
     border: none;
     left: 6%;
-    top: 196%;
+    top: 193%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -223,8 +225,9 @@
     height: 25px;
 position: absolute;
 right: 350px;
+
 padding: 10px;
-top: 196%;
+top: 193%;
 left: 76.5%;
 border-radius: 50%;
 border: none;
@@ -466,105 +469,33 @@ align-items: center;
     }
   }
 
-  @media only screen  and (min-width:500px) and  (max-width: 700px) {
- 
-    .homepicleft {
-      width: 355px;
-     
-      justify-content:center;
-     }
-     .card{
-      display: none;
-     }
-     .playpic{
-      width: 90%;
-     }
-     
-     .homepicleft{
-      width: 90%;
-      margin-left: 100px;
-      background-color: transparent;
-      background: linear-gradient(to right,transparent, transparent);
-      color:white;
-      font-size: 20px;
-     }
-     .Movie-Ganres{
-      background-color: rgba(0, 0, 0, 0.632);
-     }
-     .homeMovieDetails h1{
-       font-size: 30px;
-     }
-     .NavbarButton{
-      width: 200px;
-      padding: 0;
-     }
-     
-     .booktheticketbtn {
-           padding: 5px 5px;
-     }
-         
-   .homepicright {
-     width: 100%;
-   }
-   
-   .scrollLeftButton,.scrollRightButton {
-       top: 163%;
-   }
-   .about,.headline ,.User-Review,.recomnd   {
-    width: 100%;
-     margin-left: 10px;
-     
-   }
- 
-   .headline,.User-Review-Header{
-     font-size: 10px;
-   }
-   .User-Review h6 {
-       color: gray;
-   }
-   .show{
-     display: none;
-   }
-   .recomnd {
-     width: 100%;
-
-     margin-left: 10px;
-   }
-   .cardoverall{
-     width: 300px;
-     height: 250px;
-   }
-   .about,.Movie-crew{
-    width: 100%;
-   }
-   .SecNavbar{
-    flex-wrap: wrap;
-   }
-   .about{
-    height: 60vh;
-   }
-.User-Review {
-  padding-top: 30px;
-  margin-top: 250px;
-}
-
-
+ @media  only screen  and (min-width:500px) and (max-width: 900px) {
+  .home{
+    height: 300px;
   }
-  @media  only screen  and (min-width:700px) and  (max-width: 900px) {
-    .homepicleft{
-      width: 90%;
+   .homepicleft{
+      width: 100%;
+    
     padding-left: 20px;
-    }
-    .User-Review{
-      margin-top: 150px;
+    padding-right: 10px;
     }
     .about{
-      height: 50vh;
+      height: 45vh;
     }
-    .recomentation{
-      height: 40vh;
+    .User-Review{
+      margin-top: 200px;
     }
-    
+     .homeRating{
+        width: 280px;
+        height: 50px;
+      }
+      .homeRating button {
+        padding: 5px 8px;
+        margin-left: 20px;
+      }
+      .booktheticketbtn{
+        padding: 5px 10px;
+      }
    
 }
   @media  only screen  and (min-width:0px) and (max-width: 1300px) {
@@ -584,13 +515,29 @@ align-items: center;
   height: 50vh;
 }
 .User-Review{
-  margin-top: 80px;
+  margin-top: 0px;
 }
 .recomentation{
   height: 40vh;
 }
+  .Movie-cast{
+        width: 100%;
+      }
+      .Movie-crew{
+        width: 100%;
+      }
+     
    
   }
   @media  only screen  and (min-width:1200px) and  (max-width: 1500px) {
-
+      .Movie-cast{
+        width: 100%;
+      }
+      .Movie-crew{
+        width: 100%;
+      }
+      .homepicleft{
+        padding-left:20px ;
+      }
+     
   }
