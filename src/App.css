@@ -504,7 +504,7 @@ align-items: center;
         }
      
   }
- @media  only screen  and (min-width:600px) and (max-width: 900px) {
+ @media  only screen  and (min-width:600px) and (max-width: 1000px) {
   .home{
     height: 300px;
   }
@@ -534,7 +534,9 @@ align-items: center;
       .booktheticketbtn{
         padding: 5px 10px;
       }
-   
+   .recomentation{
+    height: auto;
+   }
 }
   @media  only screen  and (min-width:0px) and (max-width: 1300px) {
     .scrollLeftButton,.scrollRightButton ,.hashtagrightButton,.hashtagleftButton{
