@@ -151,13 +151,13 @@ function App() {
           <p>View All &gt;</p>
         </div>
         <div className='recomnd'>
-          <Recomandation />
-          <Recomandation />
-          <Recomandation />
-          <Recomandation />
-          <Recomandation />
-          <Recomandation />
-          <Recomandation />
+          <Recomandation recomandName={"Drogan"} />
+          <Recomandation recomandName={"Vaarisu"} />
+          <Recomandation recomandName={"thunivu"} />
+          <Recomandation recomandName={"marmam"} />
+          <Recomandation recomandName={"sura"} />
+          <Recomandation recomandName={"nanban"} />
+          <Recomandation recomandName={"mersal"} />
         </div>
       </div>
 

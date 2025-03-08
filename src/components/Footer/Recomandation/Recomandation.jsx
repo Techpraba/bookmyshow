@@ -2,7 +2,7 @@ import './recomandation.css';
 import moviepic from '../../../asserts/sabdham-et00431691-1740495164.avif'
 import { FaRegStar } from "react-icons/fa";
 
-function recomandation() {
+function recomandation(names) {
     return (
         <>
             <div className='MovieCardOverall'>
@@ -15,7 +15,7 @@ function recomandation() {
 
                     </div>
                 </div>
-                <h1>Drogan</h1>
+                <h1>{names.recomandName }</h1>
             </div>
         </>
     )
